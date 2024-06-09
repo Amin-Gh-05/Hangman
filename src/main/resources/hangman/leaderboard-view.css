@@ -1,0 +1,40 @@
+#mainPanel {
+    -fx-background-color: linear-gradient(to right top, #5ec2b8, #55ccc2, #49d6cd, #37e1d8, #12ebe4);
+}
+
+#backButton {
+    -fx-padding: 10px;
+    -fx-background-radius: 25px;
+    -fx-background-color: #FBFFFE;
+    -fx-border-radius: 25px;
+    -fx-border-width: 2px;
+    -fx-border-color: #438A7E;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+#recordsList:odd {
+    -fx-background-color: #f5f5f5;
+}
+
+#recordsList:even {
+    -fx-background-color: #ffffff;
+}
+
+#recordsList:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+#recordsList:selected {
+    -fx-background-color: linear-gradient(to bottom, #4a90e2, #357ebd);
+    -fx-text-fill: white;
+}
+
+#recordsList:selected:focused {
+    -fx-background-color: linear-gradient(to bottom, #4a90e2, #357ebd);
+    -fx-text-fill: white;
+}
+
+#recordsList {
+    -fx-text-fill: black;
+}

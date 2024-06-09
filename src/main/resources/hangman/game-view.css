@@ -1,0 +1,18 @@
+.gallowsLine {
+    -fx-stroke: #438A7E;
+}
+
+.letterBox {
+    -fx-padding: 10px;
+    -fx-border-color: #438A7E;
+    -fx-border-width: 3px;
+    -fx-font-size: 20px;
+}
+
+.letterButton {
+    -fx-background-radius: 25px;
+    -fx-background-color: #FBFFFE;
+    -fx-border-radius: 25px;
+    -fx-border-color: #438A7E;
+    -fx-font-size: 11px;
+}
